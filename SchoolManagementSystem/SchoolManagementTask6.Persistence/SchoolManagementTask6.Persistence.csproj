@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolManagementTask6.Domain\SchoolManagementTask6.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

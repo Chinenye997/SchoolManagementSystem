@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Persistence\\Migrations\\20250817172558_IntialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SchoolManagementTask6.Persistence\\Migrations\\20250817172558_IntialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementtask6.domain\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|solutionrelative:schoolmanagementtask6.domain\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F927C6-AA24-4B5F-A43D-7363DC7087B1}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41F927C6-AA24-4B5F-A43D-7363DC7087B1}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41F927C6-AA24-4B5F-A43D-7363DC7087B1}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41F927C6-AA24-4B5F-A43D-7363DC7087B1}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C933CFE6-D924-4CD2-A370-1F759D7356CB}|SchoolManagementTask6.Persistence\\SchoolManagementTask6.Persistence.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementtask6.persistence\\schoolmanagementtask6dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C933CFE6-D924-4CD2-A370-1F759D7356CB}|SchoolManagementTask6.Persistence\\SchoolManagementTask6.Persistence.csproj|solutionrelative:schoolmanagementtask6.persistence\\schoolmanagementtask6dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementtask6.domain\\schoolmanagementtask6.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|solutionrelative:schoolmanagementtask6.domain\\schoolmanagementtask6.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementtask6.domain\\usermanager\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|solutionrelative:schoolmanagementtask6.domain\\usermanager\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementtask6.domain\\usermanager\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|solutionrelative:schoolmanagementtask6.domain\\usermanager\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementtask6.domain\\usermanager\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|solutionrelative:schoolmanagementtask6.domain\\usermanager\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementtask6.domain\\enrollments\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|solutionrelative:schoolmanagementtask6.domain\\enrollments\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|c:\\users\\user\\desktop\\kodecamp tasks\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementtask6.domain\\usermanager\\admissionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8408A49E-F004-4992-B58A-D5C4569F06E6}|SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj|solutionrelative:schoolmanagementtask6.domain\\usermanager\\admissionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +54,151 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250817172558_IntialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Persistence\\Migrations\\20250817172558_IntialMigration.cs",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Persistence\\Migrations\\20250817172558_IntialMigration.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Persistence\\Migrations\\20250817172558_IntialMigration.cs",
+              "RelativeToolTip": "SchoolManagementTask6.Persistence\\Migrations\\20250817172558_IntialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T17:25:59.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SchoolManagementTask6.Domain",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj",
+              "RelativeToolTip": "SchoolManagementTask6.Domain\\SchoolManagementTask6.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-17T16:45:29.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem\\appsettings.json",
+              "RelativeToolTip": "SchoolManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-17T15:54:49.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T15:45:25.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SchoolManagementTask6DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Persistence\\SchoolManagementTask6DbContext.cs",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Persistence\\SchoolManagementTask6DbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Persistence\\SchoolManagementTask6DbContext.cs",
+              "RelativeToolTip": "SchoolManagementTask6.Persistence\\SchoolManagementTask6DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T15:07:53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\UserManager\\UserRole.cs",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Domain\\UserManager\\UserRole.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\UserManager\\UserRole.cs",
+              "RelativeToolTip": "SchoolManagementTask6.Domain\\UserManager\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T15:02:37.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\UserManager\\User.cs",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Domain\\UserManager\\User.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\UserManager\\User.cs",
+              "RelativeToolTip": "SchoolManagementTask6.Domain\\UserManager\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T14:59:49.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\UserManager\\Gender.cs",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Domain\\UserManager\\Gender.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\UserManager\\Gender.cs",
+              "RelativeToolTip": "SchoolManagementTask6.Domain\\UserManager\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T14:58:24.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdmissionStatus.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\UserManager\\AdmissionStatus.cs",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Domain\\UserManager\\AdmissionStatus.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\UserManager\\AdmissionStatus.cs",
+              "RelativeToolTip": "SchoolManagementTask6.Domain\\UserManager\\AdmissionStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T14:57:03.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\Enrollments\\Enrollment.cs",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Domain\\Enrollments\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\Enrollments\\Enrollment.cs",
+              "RelativeToolTip": "SchoolManagementTask6.Domain\\Enrollments\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T14:50:38.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\Courses\\Course.cs",
+              "RelativeDocumentMoniker": "SchoolManagementTask6.Domain\\Courses\\Course.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\KodeCamp Tasks\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementTask6.Domain\\Courses\\Course.cs",
+              "RelativeToolTip": "SchoolManagementTask6.Domain\\Courses\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T14:43:55.474Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
