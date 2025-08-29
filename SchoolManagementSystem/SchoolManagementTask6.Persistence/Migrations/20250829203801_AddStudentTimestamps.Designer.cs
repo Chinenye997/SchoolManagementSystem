@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SchoolManagementTask6.Persistence;
 
@@ -11,9 +12,11 @@ using SchoolManagementTask6.Persistence;
 namespace SchoolManagementTask6.Persistence.Migrations
 {
     [DbContext(typeof(SchoolManagementTask6DbContext))]
-    partial class SchoolManagementTask6DbContextModelSnapshot : ModelSnapshot
+    [Migration("20250829203801_AddStudentTimestamps")]
+    partial class AddStudentTimestamps
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

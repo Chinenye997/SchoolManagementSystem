@@ -25,12 +25,6 @@ namespace SchoolManagementSystem.Controllers
         }
 
         // implement the register endpoint
-        // validate then inputs
-        // check if the email already exist in the db.
-        // create the user object
-        // hash the password - BCrypt.hashpassword()
-        // save user to db
-        // return success message to frontend
 
         [HttpPost("register")]
         public async Task<ActionResult> Register(UserRegistrationRequest userDto)

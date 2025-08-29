@@ -18,5 +18,7 @@ namespace SchoolManagementTask6.Domain.Students
         public AdmissionStatus Status { get; set; } // Enum: Pending, Admitted, Rejected
         public int DepartmentId { get; set; } // FK → Department
         public Department? Department { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
     }
 }
