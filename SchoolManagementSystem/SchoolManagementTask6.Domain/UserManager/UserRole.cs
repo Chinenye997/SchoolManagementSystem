@@ -3,8 +3,8 @@ namespace SchoolManagementTask6.Domain.UserManager
 {
     public enum UserRole
     {
-        Admin,
-        Teacher,
-        Student
+        Admin,     // Full access to the system
+        Student,   // Regular student access
+        Lecturer   // Lecturer access
     }
 }

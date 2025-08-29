@@ -1,5 +1,4 @@
-﻿
-namespace SchoolManagementTask6.Domain.UserManager
+﻿namespace SchoolManagementTask6.Domain.Students
 {
     public enum AdmissionStatus
     {
