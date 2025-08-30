@@ -59,13 +59,17 @@ namespace SchoolManagementSystem.Controllers
             var department = await _context.Departments.FindAsync(id);
 
             if (department == null)
-                return NotFound();
+            {
+                return Ok();
+            }
 
-            return Ok(new DepartmentResponse
+            var response = new DepartmentResponse
             {
                 Id = department.Id,
                 Name = department.Name
-            });
+            };
+
+            return Ok(response);
         }
 
         // UPDATE Department
@@ -75,8 +79,9 @@ namespace SchoolManagementSystem.Controllers
             var department = await _context.Departments.FindAsync(id);
 
             if (department == null)
+            {
                 return NotFound();
-
+            }
             department.Name = request.Name;
             await _context.SaveChangesAsync();
 

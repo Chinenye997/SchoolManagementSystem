@@ -39,13 +39,16 @@ namespace SchoolManagementSystem.Controllers
             _context.Courses.Add(course);
             await _context.SaveChangesAsync();
 
+            var dapartment = await _context.Departments.FindAsync(course.DepartmentId);
+            var lecturer = await _context.Lecturers.FindAsync(course.LecturerId);
+
             var response = new CourseResponse
             {
                 Id = course.Id,
                 Title = course.Title,
                 CourseCode = course.CourseCode,
-                DepartmentName = (await _context.Departments.FindAsync(course.DepartmentId))?.Name,
-                LecturerName = (await _context.Lecturers.FindAsync(course.LecturerId))?.StaffNumber
+                DepartmentName = dapartment!.Name,
+                LecturerName = lecturer!.StaffNumber
             };
 
             return CreatedAtAction(nameof(GetCourseById), new { id = course.Id }, response);
@@ -117,7 +120,7 @@ namespace SchoolManagementSystem.Controllers
 
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok();
         }
         // Delete Operation
         [HttpDelete]
@@ -133,7 +136,7 @@ namespace SchoolManagementSystem.Controllers
             _context.Courses.Remove(course);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok();
 
         }
     }

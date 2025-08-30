@@ -102,7 +102,10 @@ namespace SchoolManagementTask6.API.Controllers
                 })
                 .FirstOrDefaultAsync();
 
-            if (student == null) return NotFound();
+            if (student == null)
+            {
+                return NotFound();
+            }
 
             return Ok(student);
         }
@@ -113,11 +116,17 @@ namespace SchoolManagementTask6.API.Controllers
         public async Task<IActionResult> UpdateStudent(int id, [FromBody] CreateStudentRequest request)
         {
             var student = await _context.Students.FindAsync(id);
-            if (student == null) return NotFound();
+            if (student == null)
+            {
+                return NotFound();
+            }
 
             // Prevent duplicate MatricNumber for other students
-            if (await _context.Students.AnyAsync(s => s.MatricNumber == request.MatricNumber && s.Id != id))
+            var isMatricNumberExist = await _context.Students.AnyAsync(s => s.MatricNumber == request.MatricNumber && s.Id != id);
+            if (isMatricNumberExist)
+            {
                 return BadRequest(new { message = "Matric number already exists for another student" });
+            }
 
             student.UserId = request.UserId;
             student.MatricNumber = request.MatricNumber;
@@ -135,11 +144,14 @@ namespace SchoolManagementTask6.API.Controllers
         public async Task<IActionResult> DeleteStudent(int id)
         {
             var student = await _context.Students.FindAsync(id);
-            if (student == null) return NotFound();
+            if (student == null)
+            {
+                return NotFound();
+            }
 
             _context.Students.Remove(student);
             await _context.SaveChangesAsync();
-            return NoContent();
+            return Ok();
         }
     }
 }

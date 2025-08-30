@@ -75,7 +75,9 @@ namespace SchoolManagementSystem.Controllers
                 return Unauthorized("Invalid email or password");
             }
 
-            if (!VerifyPassword(loginRequest.PasswordHash, user.PasswordHash!))
+            var isPasswordValid = VerifyPassword(loginRequest.PasswordHash, user.PasswordHash!);
+
+            if (!isPasswordValid)
             {
                 return Unauthorized("Invalid email or password");
             }

@@ -76,7 +76,7 @@ namespace SchoolManagementSystem.Controllers
             _context.Lecturers.Add(lecturer);
             await _context.SaveChangesAsync();
 
-            var response = await _context.Lecturers
+            var result = _context.Lecturers
                 .Include(l => l.User)
                 .Include(l => l.Department)
                 .Where(l => l.Id == lecturer.Id)
@@ -85,8 +85,9 @@ namespace SchoolManagementSystem.Controllers
                     Id = l.Id,
                     FullName = l.User.FirstName + " " + l.User.LastName,   
                     DepartmentName = l.Department.Name
-                })
-                .FirstAsync();
+                });
+
+            var response = await result.FirstOrDefaultAsync();
 
             return CreatedAtAction(nameof(GetLecturer), new { id = response.Id }, response);
         }
@@ -101,11 +102,12 @@ namespace SchoolManagementSystem.Controllers
             {
                 return NotFound();
             }
+
             lecturer.UserId = request.UserId;
             lecturer.DepartmentId = request.DepartmentId;
 
             await _context.SaveChangesAsync();
-            return NoContent();
+            return Ok();
         }
 
         // DELETE Lecturer
@@ -121,7 +123,7 @@ namespace SchoolManagementSystem.Controllers
             _context.Lecturers.Remove(lecturer);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok();
         }
     }
    

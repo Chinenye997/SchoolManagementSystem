@@ -53,22 +53,37 @@ namespace SchoolManagementSystem.Controllers
 
         // GET User by Id
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUserById(int id)
+        public async Task<ActionResult<UserResponseDto>> GetUserById(int id)
         {
             var user = await _context.Users.FindAsync(id);
             if (user == null)
             {
                 return NotFound();
             }
-            return Ok(user);
+
+            var userData = new UserResponseDto
+            {
+                FullName = $"{user.FirstName} {user.LastName}",
+                Email = user.Email,
+            };
+
+            return Ok(userData);
         }
 
         // GET All Users
         [HttpGet]
-        public async Task<ActionResult<List<User>>> GetAllUsers()
+        public async Task<ActionResult<List<UserResponseDto>>> GetAllUsers()
         {
-            var users = await _context.Users.ToListAsync();
-            return Ok(users);
+            var users = _context.Users.Select(user => new UserResponseDto 
+            {
+                FullName = $"{user.FirstName} {user.LastName}",
+                Email = user.Email,
+                
+            });
+
+            var response = await users.ToListAsync();
+
+            return Ok(response);
         }
 
         // UPDATE User
@@ -81,8 +96,8 @@ namespace SchoolManagementSystem.Controllers
                 return NotFound();
             }
             // Prevent duplicate emails for other users
-            if (await _context.Users.AnyAsync(
-                u => u.Email == request.Email && u.Id != id))
+            var isEmailExist = await _context.Users.AnyAsync(u => u.Email == request.Email && u.Id != id);
+            if (isEmailExist)
             {
                 return BadRequest(new { message = "Email already exists for another user" });
             }
@@ -110,7 +125,7 @@ namespace SchoolManagementSystem.Controllers
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok();
         }
     }
 }
