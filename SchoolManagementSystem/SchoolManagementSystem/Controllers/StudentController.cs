@@ -24,9 +24,13 @@ namespace SchoolManagementTask6.API.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<StudentResponse>> CreateStudent([FromBody] CreateStudentRequest request)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
             // Prevent duplicate MatricNumber
+
             if (await _context.Students.AnyAsync(s => s.MatricNumber == request.MatricNumber))
                 return BadRequest(new { message = "Matric number already exists" });
 
